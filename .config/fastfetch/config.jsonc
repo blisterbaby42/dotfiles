@@ -1,0 +1,54 @@
+{
+  "$schema": "https://github.com",
+  "logo": {
+    "source":"~/.config/fastfetch/logo_main.txt",
+    "color": {
+      "1": "white",  // ◄─── Primary logo color
+      "2": "green"// ◄─── Secondary logo color (if the logo uses two colors)
+    },
+    "padding": {
+      "top": 1,
+      "left": 2
+    }
+  },
+
+  "display": {
+    "separator": ">>   ",
+    "color": "magenta"
+  },
+  "modules": [
+    "title",
+    "separator",
+    {
+      "type": "os",
+      "key": "OS     "
+    },
+    {
+      "type": "kernel",
+      "key": "KERNEL "
+    },
+    {
+      "type": "uptime",
+      "key": "UPTIME "
+    },
+    {
+      "type": "packages",
+      "key": "PKG    "
+    },
+    {
+      "type": "shell",
+      "key": "SHELL  "
+    },
+    {
+      "type": "memory",
+      "key": "RAM    "
+    },
+    {
+      "type":"disk",
+      "key":"DISK   "
+    },
+    "break",
+    "colors"
+  ]
+}
+
