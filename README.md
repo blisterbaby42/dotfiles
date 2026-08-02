@@ -1,1 +1,1 @@
-VIM \ NVIM 
+VIM \ NVIM messy personal configs
